@@ -1,0 +1,4 @@
+name: ScoreBoard
+main: cf.userghost411.scoreboard.Main
+version: ${version}
+commands:

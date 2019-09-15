@@ -1,0 +1,25 @@
+#Welcome To UG-ScoreBoard Plugin Config File#
+#=== API ===#
+Vault: true
+#==END API==#
+#==ServerScroreBoard==#
+#VariableList#
+#%money% get currency by Vauld
+#%player% get name player
+#%rank% get rank by Permission level
+#%ping% get ping
+#%players% get online player
+#%maxplayer% get Max Online Player
+#VariableList#
+ScoreBoard:
+    Enable: true
+    Title: '&bInfinity&l&fI&l&4&lD'
+    Data:
+        - '&6 '
+        - '&6Name: &e%player%'
+        - '&6Rank: &e%rank%'
+        - '&6Money: &e%money%'
+        - '&6Ping: &e%ping%'
+        - '&6 '
+        - '&6Players: %players% / %maxplayer%'
+#==EndScroreBoard==#
